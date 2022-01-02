@@ -9,7 +9,7 @@ tmdb.api_key = '3e24a03dcdc99659fb784adc4fbb4966'
 tmdb.language = 'fr'
 movie = Movie()
 
-url = "/Users/carnicero/Downloads/test.m3u"
+url = "/Users/carnicero/Downloads/test2.m3u"
 useragent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36"
 parser = M3uParser(timeout=5, useragent=useragent)
 parser.parse_m3u(url)

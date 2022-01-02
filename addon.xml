@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.m3u-vod-helper" name="M3u VOD Helper" version="1.0.0" provider-name="juanma-cvega">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">M3U VOD reader</summary>
+        <description lang="en">Reads the provided m3u file and parses it to provide the list of links to Kodi</description>
+        <license>GNU General Public License, v2</license>
+        <language>en</language>
+        <forum></forum>
+        <source></source>
+        <email>juanma.cvega@gmail.com</email>
+        <assets>
+            <icon></icon>
+            <fanart></fanart>
+            <screenshot></screenshot>
+        </assets>
+        <news>First version</news>
+    </extension>
+</addon>
